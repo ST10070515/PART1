@@ -1,0 +1,99 @@
+header nav{
+    display: flex;
+    flex-direction: column;
+    gap:0.45cm;
+    text-align: center;
+    
+}
+
+
+
+header img{
+   max-width: 12%;
+}
+h1{
+    text-align: center;
+    background-image: url("../images/entertainment2.webp");
+    background-size: contain;
+    font-size: 200%;
+}
+
+h2
+{
+    font-size: 300%;
+    text-align: center;
+}
+h3
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:150%;
+    text-align: center;
+    background-color: burlywood;
+
+}
+video
+{   
+    
+    max-width: 27%;
+    background-color: whitesmoke;
+}
+main
+{
+    background-color:lightblue;
+    
+}
+
+main div
+{
+    background-color: white;
+}
+
+
+
+
+/*classes*/
+.container
+{
+    display: flex;
+    max-height: 10%;
+    min-width: 100%;
+    border:0.05em double red ;
+    justify-self: center; 
+    background-color: darkgray;
+}
+.box1 {
+    width:30%;
+    border: 0.05cm solid black;
+    justify-self: center;
+}
+
+.box2{
+    width: 60%;
+    border: 0.1cm solid black;
+    margin:0 auto;
+    display: block;
+    justify-self: center;
+    background-color: lightgray;
+    padding-top: 5%;
+}
+
+.box3{
+    justify-self: right;
+    width: 10%;
+    border: 2px solid black;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding-top: 1%;
+}
+
+.tin{
+    display: block;
+    justify-self: center;
+    border:0.05cm solid rgb(231, 14, 14);
+    min-width:50%;
+    margin-bottom: 20px;
+    width: 70%;
+    background-color: darkgray
+}
+
+

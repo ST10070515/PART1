@@ -1,0 +1,152 @@
+/*style for tags (not recommended but knowing am going to do it )*/
+nav
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.45cm;
+    text-align: center;
+}
+
+body
+{
+    background-color: lightblue;
+}
+
+/*Styles id (do not call an id in many elements) */
+#box1
+{
+    width:70%;
+    background-color: lightgray;
+}
+
+#box2{
+    width:30%;
+    background-color: darkgray;
+}
+
+
+/*styles for classes*/
+
+.images{
+    display: block;
+    margin:0 auto;
+    max-height: 150px;
+    text-align: center;
+}
+
+.container {
+    height:180px;
+    display: flex;
+    gap:20px;
+}
+
+.box1 {
+    width:90%;
+    padding:10px;
+    display: flex;
+}
+
+.box1 h1 {
+    font-family:monospace;
+    text-align: center;
+    font-size:40px;
+    background-color: lightseagreen;
+}
+
+.box1 h3{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.box2
+{
+    width: 10%;
+    background-color: aquamarine;
+}
+
+.sec1{
+    background-size: cover;
+    width:60%;
+    margin:0 auto;
+    text-align: center;
+    color:black;
+    background-color: burlywood;
+}
+
+.sec1 h2{
+    background-color: greenyellow;
+}
+
+
+.sec1 img{
+    margin: 0 auto;
+    text-align: center;
+    min-width:45%
+}
+
+.fcontainer
+{
+    display:flex;
+    justify-self: center;
+    background-color: whitesmoke;
+    height: 5%;
+    
+}
+
+.ftin1
+{
+    width:50%;
+    border:0.05em solid lightgreen;
+    justify-self: center;
+}
+
+.ftin1 h4
+{
+    text-align: center;
+    justify-self: center;
+}
+.ftin1 h5
+{
+    text-align: center;
+    justify-self: center;    
+}
+
+.ftin3
+{
+    width:50%;
+    border:0.05em solid red;
+    justify-self: center;
+
+}
+
+.ftin5
+{
+    width:20%;
+    background-color: red;
+    justify-self: center;
+}
+
+.fbox1 h1
+{
+    width:100%;
+    justify-self: center;
+
+}
+
+.fbox2{
+    width:100%;
+    justify-self: center;
+}
+
+.fcontainer img 
+{
+    max-width: 20%;
+    margin-left: 12.5%;
+}
+
+address
+{
+    justify-self: center;
+    width:35%
+}
+

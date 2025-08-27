@@ -1,0 +1,159 @@
+/*
+    standard htmlm tags modification
+*/
+header  {
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    background-color: red;
+}
+
+h1{
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightsalmon;
+
+}
+
+h5{font-size: 20px;}
+
+h3
+{
+    background-color: lightgray;
+    border: 0.07em double black;
+    text-align: center;
+    width:40%;
+    justify-self: center;
+}
+
+article
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border:2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+nav
+{
+    display: flex;
+    gap: 20px; 
+    height:20px;
+    flex-direction: column;
+}
+
+nav a {
+    justify-items: center;
+    margin: 0 auto;
+}
+
+h2
+{
+    background-color: lightsalmon;
+}
+
+h4
+{
+    background-color:white;
+}
+
+main
+{
+    background-color: greenyellow;
+    width: 70%;
+    justify-self: center;
+}
+
+body
+{
+    background-color: lightblue;
+}
+/*
+classes css
+*/
+.div1{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: burlywood;
+    width: 70%;
+}
+
+.div1 img{
+    width: 0 auto;
+    min-width: 400px;
+    border:2px solid black;
+}
+
+.container
+{
+    display: flex;
+    max-height: 300px;
+    background-color: lightslategray;
+}
+
+.box1{
+    width:30%;
+    justify-items: center; 
+}
+
+.box2{
+    width:70%;    
+    background-color: darkgray;
+}
+
+.container img{
+    display: block;
+    text-align: center;
+    justify-self: center;
+    min-width:50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.sec3
+{   
+    display: block;
+    margin: 0 auto;
+}
+
+.sec1{
+    border: 2px solid black;
+    background-color: darkgray;
+}
+
+.sec1 img
+{
+    min-width:150px;
+    width: 500px;
+}
+
+.sec1 article 
+{
+    background-color: burlywood;
+}
+
+.tin1{
+    width:20%;
+    background-color: burlywood;
+}
+
+.tin2{
+    width:70%;
+    border:0.1em, solid black;
+    text-align:center;
+   
+}
+
+.tin3{
+    width:10%;
+    margin-left:auto;
+    background-color: aquamarine;
+}
+
+

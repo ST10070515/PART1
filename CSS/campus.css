@@ -1,0 +1,103 @@
+.container
+{
+    display: flex;
+    width: 100%;
+    background-color: lightgray;
+}
+.box1 {
+    width:40%;
+    border: 0.05cm solid black;
+}
+
+.box2{
+    width: 50%;
+    border: 0.1cm solid black;
+    background-image: url(../images/campusposter.webp);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+
+.box3{
+    width: 10%;
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    gap:0.35cm;
+    text-align: center;
+
+}
+
+.container img{
+    width:15%;
+}
+
+.tin
+{
+    display: flex;
+    width:80%;
+    justify-self: center;   
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.tin1
+{   
+  
+    width:60%;
+    border:0.05em solid purple;
+    margin: 0 auto;
+
+}
+
+.tin2
+{
+    width:40%;
+    border: 0.05em solid red;
+    background-color: aquamarine;
+
+}
+
+.tin img
+{
+    display: block;
+    justify-self: center;
+    width:100%;
+    border:0.1em solid magenta
+}
+
+div h2
+{
+    text-align: center;
+}
+
+article
+{
+    width:60%;
+    justify-self: center;
+
+}
+
+.tin article
+{
+    background-color: lightsalmon;
+    margin-top:50%;
+}
+h2
+{
+    background-color: whitesmoke;
+}
+
+main
+{
+    background-color: lightblue;
+
+}

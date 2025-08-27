@@ -1,0 +1,104 @@
+
+/*html tags mods*/
+main div
+{
+    justify-items: center;
+    border: 0.05cm double black;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    
+
+}
+
+div img
+{
+    display:block;
+    width:40%;
+    justify-self: center;
+}
+
+article
+{   
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    width: 70%;
+    border: 0.1em solid red;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    font-size: 100%;
+    text-align: center;
+}
+
+div h3{
+    background-color: greenyellow;
+    font-size: 175%;
+    text-align: center;
+}
+
+body{
+    background-color:lightblue;
+}
+
+div{
+    width:70%;
+    background-color: burlywood;
+    justify-self: center;
+}
+
+header nav{
+    margin-left:auto;
+    display: flex;
+    flex-direction: column;
+    gap:0.45cm;
+    text-align: center;
+    background-color: rgba(36, 87, 82, 0.577);
+    justify-self: right;
+    padding-top: 1.25%;
+
+}
+
+header
+{
+    border:0.1em dotted black;
+    background-color: white;
+}
+
+/*styles for classes*/
+.container
+{
+    display: flex;
+    width: 100%;
+    justify-self: center; 
+    background-color:darkgray;
+}
+
+.box1 {
+    width:30%;
+    margin: auto;
+}
+
+.box2{
+    width: 50%;
+    background-image: url(images/campuskids.webp);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin:0 auto;
+    font-family: cursive;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.box3{
+    width: 10%;
+    background-color: aquamarine;
+    justify-self: right;
+}
+
+.container img{
+    width:15%;
+}
+
+
