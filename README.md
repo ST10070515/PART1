@@ -23,6 +23,7 @@ Website Goals and Objectives:
 •	Encourage student journalism through static content.
 •	Increase awareness of campus activities.
 •	KPIs: Number of visitors, articles published monthly.
+![SITEMAP](images/sitemap.png)
 Current Website Analysis: 
 •	Strengths: News via emails/social media offers immediacy.
 •	Weaknesses: No archive, inconsistent reliability, no multimedia.
@@ -38,6 +39,7 @@ Design and User Experience:
 •	Layout: Clean grid with headline emphasis.
 •	UX: Easy navigation, responsive design.
 •	Wireframes: Sketch header (logo, navigation), featured section, category grid, sidebar.
+![WIREFRAMES](images/wireframe.png)
 Technical Requirements: 
 •	Hosting/Domain: Student-friendly provider.
 •	Front-end: HTML5, CSS3, JavaScript.
